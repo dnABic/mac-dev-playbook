@@ -10,6 +10,12 @@
     state: directory
   become: yes
 
+- name: Ensure  /usr/local/etc directory exists.
+  file:
+    path: /usr/local/etc
+    state: directory
+  become: yes
+
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
   file:
     src: /etc/ansible
