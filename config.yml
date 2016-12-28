@@ -18,6 +18,12 @@ homebrew_installed_packages:
   - awscli
   - cfssl
   - tmux
+  - terraform
+  - python3
+  - pyenv
+  - readline
+  - rbenv
+  - ruby-build
 
 homebrew_taps:
   - homebrew/core
@@ -42,3 +48,4 @@ homebrew_cask_apps:
   - iterm2
   - superduper
   - flowdock
+  - atom
